@@ -1,0 +1,85 @@
+li{
+    list-style: none;
+}
+a{
+    margin: 0 0 0 1em;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    transition: 0.2s;
+}
+a.active{
+    color: #e5ff00;
+}
+.menuNav{
+    width: 100%;
+    height: 5em;
+    background-color: #7dcc86;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1em;
+}
+.menuBurger{
+    height: 60%;
+    width:4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.burger{
+width: 2.2em;
+height: 0.3em;
+background-color: #FFF;
+border-radius: 0.5em;
+
+}
+.menuWrapper{
+    position: relative;
+}
+.menu{
+    position: absolute;
+    width: 10%;
+    height: 100vh;
+    background: #7dcc86;
+    transition: ease-out 0.5s;
+    left: 0;
+
+    
+}
+.hidden{
+left: -50%;
+transition: ease-out 0.5s;
+
+}
+.visible{
+left: 0;
+transition: ease-out 0.5s;
+
+
+}
+.burger.clicked:first-child{
+    transform: rotate(50deg) translate(0.6em, 0.5em);
+    transition: ease-out 0.5s;
+    background-color: #e5ff00;
+
+}
+.burger.clicked:nth-child(2){
+    transform:scale(0.1); 
+    transition: ease-out 0.5s;
+    background-color: #e5ff00;
+
+}
+.burger.clicked:last-child{
+    transform: rotate(130deg) translate(-0.5em, 0.5em);
+    transition: ease-out 0.5s;
+    background-color: #e5ff00;
+
+}
+.burger.unclicked{
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.855, 0.32, 1.275) 0.5s;
+}
