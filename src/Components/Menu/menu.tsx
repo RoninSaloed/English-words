@@ -8,7 +8,7 @@ import Dictionary from "../../pages/Dictionary"
 
 
 
-export const Menu = ({ }: MenuProps): JSX.Element => {
+export const Menu = ({ add }: MenuProps): JSX.Element => {
 
     const [burger, setBurger] = useState("burger unclicked")
     const [menu, setMenu] = useState("menu hidden")
@@ -25,6 +25,7 @@ export const Menu = ({ }: MenuProps): JSX.Element => {
         }
         setMenuActive(!menuActive)
     }
+
     return (
         <div className="menuWrapper">
             <div className="menuBlur">
@@ -49,7 +50,7 @@ export const Menu = ({ }: MenuProps): JSX.Element => {
                 </div>
                 <Routes>
                     <Route path='/' element={<Home />}></Route>
-                    <Route path='/Dictionary' element={<Dictionary />}></Route>
+                    <Route path='/Dictionary' element={<Dictionary add={add} />}></Route>
                 </Routes>
             </div>
         </div>

@@ -5,7 +5,6 @@ import data from "../../text.json"
 import { WordsProps } from "./words.props"
 export const Words = ({ percentBar, value, changeValue, Next, active, word, wordUa, Add, add }: WordsProps): JSX.Element => {
 
-
     return (
         <div className="word">
             <div>
@@ -22,7 +21,6 @@ export const Words = ({ percentBar, value, changeValue, Next, active, word, word
                     <button className="wordButton" onClick={Next}>Next</button>
                     <button className="wordButton" onClick={Add}>Add</button>
                 </div>
-
             </div>
 
         </div>
