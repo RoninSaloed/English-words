@@ -8,7 +8,7 @@ import Dictionary from "../../pages/Dictionary"
 
 
 
-export const Menu = ({ add }: MenuProps): JSX.Element => {
+export const Menu = ({ add, Add }: MenuProps): JSX.Element => {
 
     const [burger, setBurger] = useState("burger unclicked")
     const [menu, setMenu] = useState("menu hidden")
@@ -50,7 +50,7 @@ export const Menu = ({ add }: MenuProps): JSX.Element => {
                 </div>
                 <Routes>
                     <Route path='/' element={<Home />}></Route>
-                    <Route path='/Dictionary' element={<Dictionary add={add} />}></Route>
+                    <Route path='/Dictionary' element={<Dictionary Add={Add} add={add} />}></Route>
                 </Routes>
             </div>
         </div>

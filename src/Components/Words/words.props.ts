@@ -1,7 +1,7 @@
 import { DetailedHTMLProps, HTMLAttributes } from "react";
 
 export interface WordsProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-    percentBar: number,
+    PercentBar: number
     add: any[]
     word: string
     wordUa: string
