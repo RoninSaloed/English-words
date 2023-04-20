@@ -6,15 +6,16 @@ a{
     text-decoration: none;
     color: #fff;
     font-family: 'Inter', sans-serif;
-    transition: 0.2s;
+transition: 0.2s;
+    font-size: 20px;
 }
 a.active{
     color: #e5ff00;
 }
 .menuNav{
     width: 100%;
-    height: 5em;
-    background-color: #7dcc86;
+    height: 11vh;
+    background-color: #25B3B4;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -31,24 +32,19 @@ a.active{
 
 }
 .burger{
-width: 2.2em;
-height: 0.3em;
-background-color: #FFF;
-border-radius: 0.5em;
+    width: 2.2em;
+    height: 0.3em;
+    background-color: #FFF;
+    border-radius: 0.5em;
 
 }
-.menuWrapper{
-    position: relative;
-}
+
 .menu{
     position: absolute;
-    width: 10%;
-    height: 100vh;
-    background: #7dcc86;
+    width: 11%;
+    background: #219D9E;
     transition: ease-out 0.5s;
     left: 0;
-
-    
 }
 .hidden{
 left: -50%;
@@ -64,19 +60,19 @@ transition: ease-out 0.5s;
 .burger.clicked:first-child{
     transform: rotate(50deg) translate(0.6em, 0.5em);
     transition: ease-out 0.5s;
-    background-color: #e5ff00;
+    background-color: #fff;
 
 }
 .burger.clicked:nth-child(2){
     transform:scale(0.1); 
     transition: ease-out 0.5s;
-    background-color: #e5ff00;
+    background-color: #fff;
 
 }
 .burger.clicked:last-child{
     transform: rotate(130deg) translate(-0.5em, 0.5em);
     transition: ease-out 0.5s;
-    background-color: #e5ff00;
+    background-color: #fff;
 
 }
 .burger.unclicked{

@@ -5,4 +5,5 @@ export interface ResultProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivEle
     setstep: any
     range: number
     PercentBar: number
+    add: any[]
 }

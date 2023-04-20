@@ -1,0 +1,62 @@
+.dictionary{
+    margin: 20px 0 0 0;
+
+}
+
+.dictionaryBody{
+    margin: 0 auto;
+    width: 30%;
+text-align: center;
+}
+.dictionaryTitles{
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+}
+.titleEng{
+    font-style: normal;
+font-weight: 400;
+line-height: 60px;
+font-family: 'Inder', sans-serif;
+
+color: #E24F61;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titleUa{
+    font-family: 'Inder', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    color: #F6B92B;
+}
+.dictionaryItem{
+    font-size: 25px;
+    color: #833F6A;
+    font-family: 'Inder', sans-serif;
+    position: relative;
+
+}
+/* .dictionaryItem td::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    right: 0;
+    height: 1px;
+    background-color: #F2EAFA ;
+} */
+.removeWord{
+    width: 20px;
+    height: 30px;
+    background-image: url("./busket.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+ 
+}

@@ -14,5 +14,6 @@ export interface WordsProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElem
     Add: any
     active: boolean | undefined,
     data: object,
+    step: number
 
 }

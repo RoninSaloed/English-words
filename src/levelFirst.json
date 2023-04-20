@@ -1,117 +1,146 @@
 [
     {
+        "id": 0,
         "word": "Title",
         "wordUa": "Заголовок"
     },
     {
+        "id": 1,
         "word": "Apple",
         "wordUa": "Яблуко"
     },
     {
+        "id": 2,
         "word": "a",
         "wordUa": "артикль"
     },
     {
+        "id": 3,
         "word": "about",
         "wordUa": "приблизно"
     },
     {
+        "id": 4,
         "word": "act",
         "wordUa": "діяти"
     },
     {
+        "id": 5,
         "word": "actually",
         "wordUa": "насправді"
     },
     {
+        "id": 6,
         "word": "add",
         "wordUa": "додати"
     },
     {
+        "id": 7,
         "word": "after",
         "wordUa": "після"
     },
     {
+        "id": 8,
         "word": "again",
         "wordUa": "знову"
     },
     {
+        "id": 9,
         "word": "against",
         "wordUa": "проти"
     },
     {
+        "id": 10,
         "word": "age",
         "wordUa": "вік"
     },
     {
+        "id": 11,
         "word": "ago",
         "wordUa": "тому"
     },
     {
+        "id": 12,
         "word": "air",
         "wordUa": "повітря"
     },
     {
+        "id": 13,
         "word": "all",
         "wordUa": "все"
     },
     {
+        "id": 14,
         "word": "also",
         "wordUa": "також"
     },
     {
+        "id": 15,
         "word": "always",
         "wordUa": "завжди"
     },
     {
+        "id": 16,
         "word": "am",
         "wordUa": "артикль"
     },
     {
+        "id": 17,
         "word": "among",
         "wordUa": "серед"
     },
     {
+        "id": 18,
         "word": "an",
         "wordUa": "артикль"
     },
     {
+        "id": 19,
         "word": "and",
         "wordUa": "і"
     },
     {
+        "id": 20,
         "word": "animal",
         "wordUa": "тварина"
     },
     {
+        "id": 21,
         "word": "another",
         "wordUa": "інший"
     },
     {
+        "id": 22,
         "word": "answer",
         "wordUa": "відповідь"
     },
     {
+        "id": 23,
         "word": "appear",
         "wordUa": "з’являтися"
     },
     {
+        "id": 24,
         "word": "are",
         "wordUa": "є"
     },
     {
+        "id": 25,
         "word": "area",
         "wordUa": "область"
     },
     {
+        "id": 26,
         "word": "as",
         "wordUa": "як"
     },
     {
+        "id": 27,
         "word": "ask",
         "wordUa": "запитати"
     },
     {
+        "id": 28,
         "word": "at",
         "wordUa": "в"
     }

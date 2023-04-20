@@ -1,42 +1,182 @@
 .word{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: #7dcc86;
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+ .wordFirstLayer{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #25B3B4;    
+
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 400px;
+  height: 230px;
+ }
+ .wordSecondLayer{
+   box-sizing: border-box;
+   position: absolute;
+   width: 400px;
+   height: 230px;
+   background: #E24F61;  
+   border: 1px solid #000000;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+   top: 0.4em;
+   left: 0.4em;
+
+
+ }
+ .wordThirdLayer{
+   box-sizing: border-box;
+   position: absolute;
+   width: 400px;
+   height: 230px;
+   background: #F6B92B;
+   border: 1px solid #000000;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+   top: 0.4em;
+   left: 0.4em;
+
+ }
+ .wordFourthLayer{
+   box-sizing: border-box;
+   position: absolute;
+   width: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 230px;
+   border: 1px solid #000000;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #F1EAFA 99.98%, #C7EEF5 99.99%, #DDECEE 100%);
+  top: 0.4em;
+  left: 0.4em;
+
  }
  .wordTitle{
-    font-size: 22px;
+    font-size: 40px;
     letter-spacing: 1px;
-    margin: 0 0 10px 0;
+    color: #833F6A;
+    margin: 0 0 20px 0;
  }
  input{
     margin:  0 0 10px 0;
     padding: 0 0 0 10px;
     width: 225px;
-    height: 30px;
+    height: 35px;
     background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     font-weight: lighter;
+    text-align: center;
+    font-size: 18px;
+    color: #833F6A;
+
  }
  .wordError{
-    font-size: 14px;
-    color: rgb(163, 19, 19);
- }
+    font-size: 20px;
+    color: #833F6A; 
+    letter-spacing: 0.8px;
+   }
+.error{
+   height: 20px;
+}
+.hint{
+   font-family: 'Inder', sans-serif;
+   position: absolute;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   color: #833F6A;
+   line-height: 80px;
+   right: 20px;
+   top: 160px;
+   cursor: pointer;
+}
  .wordProgressBar{
-    width: 250px;
-    height: 9px;
-    background-color: #d3d3d3;
+    height: 18px;
+    background-color: #fff;
     border-radius: 10px;
-    margin: 0 0 10px 0;
- 
+    border: 1px #000 solid;
+    margin: 0 0 50px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
  }
  .wordProgress{
-    height: 9px;
-    background-color: green;
+    height: 16.5px;
+    background-color: #209C9D;
     border-radius: 10px;
     transition: 0.5s ;
  }
+ .wordBodyButtons{
+   width: 27%;
+   margin: 20px 0 0 0;
+   display: flex;
+   justify-content: space-between;
+ }
+ .wordButtonAdd{
+   border: none; 
+   outline: none;
+   background: none;
+   color: #833F6A;
+   font-size: 18px;
+ }
+ .wordButtonNext{
+   border: none; 
+   outline: none;
+   background: none;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 64px;
+   color: #833F6A;
+ }
+ .unvisible{
+   width: 100px;
+   height: 22px;
+   transition: 0.3s all;
+   position: absolute;
+   margin: 0 auto;
+   cursor: pointer;
+   top: 120px;
+   left: 480px;
+}
+ .vissible{
+   font-family: 'Inder', sans-serif;
+   width: 220px;
+
+   height: 115px;
+   transition: 0.3s all;
+   position: absolute;
+   margin: 0 auto;
+   cursor: pointer;
+   top: 90px;
+   left: 420px;
+   background-image: url("./hint.png");
+   background-repeat: no-repeat;
+   background-size: 220px;
+   font-size: 20px;
+   color: #833F6A;
+   font-weight: 500;
+ } 
+.displaynone{
+   display: none;
+}
+.displayblock{
+   display: flex;
+   justify-content: center;
+   width: 220px;
+   height: 100px;
+   align-items: center;
+   position: absolute;
+   /* top: 30px;
+   right: 75px; */
+
+}

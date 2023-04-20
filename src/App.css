@@ -27,7 +27,7 @@ dd {
 }
 
 body {
-  min-height: 100vh;
+  height: 89vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -62,7 +62,7 @@ background-color: #ffff;
 }
 .Main{
   font-family: 'Inter', sans-serif;
-  height: 90vh;
+  height: 89vh;
   display: flex;
   justify-content: center;
   align-items: center;

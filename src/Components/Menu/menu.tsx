@@ -4,11 +4,12 @@ import { Routes, Route, Link, NavLink } from "react-router-dom"
 import { MenuProps } from "./menu.props"
 import App from "../../App"
 import Home from "../../pages/Home"
-import Dictionary from "../../pages/Dictionary"
+import Dictionary from "../Dictionary/Dictionary"
+import ElementList from "../../pages/ElementList"
 
 
 
-export const Menu = ({ add, Add }: MenuProps): JSX.Element => {
+export const Menu = ({ }: MenuProps): JSX.Element => {
 
     const [burger, setBurger] = useState("burger unclicked")
     const [menu, setMenu] = useState("menu hidden")
@@ -18,14 +19,13 @@ export const Menu = ({ add, Add }: MenuProps): JSX.Element => {
     const updateMenu = () => {
         if (!menuActive) {
             setBurger("burger clicked")
-            setMenu("menu vissible")
+            setMenu("menu visible")
         } else {
             setBurger("burger unclicked")
             setMenu("menu hidden")
         }
         setMenuActive(!menuActive)
     }
-
     return (
         <div className="menuWrapper">
             <div className="menuBlur">
@@ -36,9 +36,17 @@ export const Menu = ({ add, Add }: MenuProps): JSX.Element => {
                             <div className={burger}></div>
                             <div className={burger}></div>
                         </div>
+                        {/* <div className="buttonsBody">
+                            <div className="buttonsRadio">
+                                <button >First level</button>
+                                <button >Second level</button>
+                                <button >Third level</button>
+                            </div>
+                        </div> */}
                     </nav>
                 </header>
                 <div className={menu}>
+
                     <nav>
                         <li>
                             <NavLink to="/">Home</NavLink>
@@ -46,11 +54,15 @@ export const Menu = ({ add, Add }: MenuProps): JSX.Element => {
                         <li>
                             <NavLink to="/Dictionary">Dictionary</NavLink>
                         </li>
+                        <li>
+                            <NavLink to="/ElementList">ElementList</NavLink>
+                        </li>
                     </nav>
                 </div>
                 <Routes>
                     <Route path='/' element={<Home />}></Route>
-                    <Route path='/Dictionary' element={<Dictionary Add={Add} add={add} />}></Route>
+                    <Route path='/Dictionary' element={<Dictionary />}></Route>
+                    <Route path='/ElementList' element={<ElementList />}></Route>
                 </Routes>
             </div>
         </div>

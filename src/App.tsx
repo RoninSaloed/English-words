@@ -1,17 +1,17 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
-import { Menu, Words } from './Components/components';
+import Home from './pages/Home';
+import React from 'react';
+import { Menu, Result, Words } from "./Components/components"
+import firstLevel from "./levelFirst.json"
 
 
-
-function App(add: any,) {
-
+function App() {
 
   return (
     <div className="App">
-      <Menu Add={add} add={add}  ></Menu>
+      <Menu></Menu>
     </div>
   );
 }
-
 export default App;
