@@ -5,11 +5,10 @@ import { MenuProps } from "./menu.props"
 import App from "../../App"
 import Home from "../../pages/Home"
 import Dictionary from "../Dictionary/Dictionary"
-import ElementList from "../../pages/ElementList"
 
 
 
-export const Menu = ({ }: MenuProps): JSX.Element => {
+export const Menu = ({ stop, setstep, step, PercentBar, question, value, changeValue, Next, Add, add, active, range, word, wordUa, setAdd }: MenuProps): JSX.Element => {
 
     const [burger, setBurger] = useState("burger unclicked")
     const [menu, setMenu] = useState("menu hidden")
@@ -46,7 +45,6 @@ export const Menu = ({ }: MenuProps): JSX.Element => {
                     </nav>
                 </header>
                 <div className={menu}>
-
                     <nav>
                         <li>
                             <NavLink to="/">Home</NavLink>
@@ -54,15 +52,12 @@ export const Menu = ({ }: MenuProps): JSX.Element => {
                         <li>
                             <NavLink to="/Dictionary">Dictionary</NavLink>
                         </li>
-                        <li>
-                            <NavLink to="/ElementList">ElementList</NavLink>
-                        </li>
                     </nav>
                 </div>
                 <Routes>
-                    <Route path='/' element={<Home />}></Route>
-                    <Route path='/Dictionary' element={<Dictionary />}></Route>
-                    <Route path='/ElementList' element={<ElementList />}></Route>
+                    <Route path='/' element={<Home PercentBar={PercentBar} range={range} add={add} question={question} value={value} changeValue={changeValue} Next={Next}
+                        Add={Add} active={active} step={step} setstep={setstep} stop={stop} word={word} wordUa={wordUa} />}></Route>
+                    <Route path='/Dictionary' element={<Dictionary add={add} setAdd={setAdd} />}></Route>
                 </Routes>
             </div>
         </div>

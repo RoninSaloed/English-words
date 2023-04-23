@@ -14,9 +14,11 @@ export const Result = ({ step, setstep, range, PercentBar, add }: ResultProps): 
     }
     return (
         <div className="result">
-            <button onClick={Previously}>previously</button>
-            <button onClick={Continue}>Continue</button>
-            {step}
+            <div className="resultTitle">You looked at {step} words</div>
+            <div className="resultButtons">
+                <button className="resultPreviously" onClick={Previously}>Previously</button>
+                <button className="resultContinue" onClick={Continue}>Continue</button>
+            </div>
         </div>
     )
 }

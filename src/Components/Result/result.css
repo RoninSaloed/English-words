@@ -83,3 +83,30 @@ transition: ease-out 0.5s;
     transform: rotate(0) translate(0);
     transition: cubic-bezier(0.175, 0.855, 0.32, 1.275) 0.5s;
 }
+.result{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resultTitle{
+    color: #833F6A;
+    font-size: 25px;
+}
+.resultPreviously{
+    border: none; 
+    outline: none;
+    background: none;
+    color: #833F6A;
+    font-size: 18px;
+    cursor: pointer;
+}
+.resultContinue{
+    border: none; 
+    outline: none;
+    background: none;
+    color: #833F6A;
+    font-size: 18px;
+    cursor: pointer;
+}

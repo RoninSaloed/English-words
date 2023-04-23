@@ -128,6 +128,7 @@
    background: none;
    color: #833F6A;
    font-size: 18px;
+   cursor: pointer;
  }
  .wordButtonNext{
    border: none; 
@@ -137,6 +138,8 @@
    font-size: 22px;
    line-height: 64px;
    color: #833F6A;
+   cursor: pointer;
+
  }
  .unvisible{
    width: 100px;

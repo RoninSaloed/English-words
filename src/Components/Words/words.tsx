@@ -3,7 +3,7 @@ import cn from "classnames"
 import "./words.css"
 import firstLevel from "../../levelFirst.json"
 import { WordsProps } from "./words.props"
-export const Words = ({ PercentBar, value, changeValue, Next, active, word, wordUa, Add, add, step }: WordsProps): JSX.Element => {
+export const Words = ({ PercentBar, value, changeValue, Next, active, Add, add, step, setstep, word, wordUa }: WordsProps): JSX.Element => {
     const [vissible, setVisible] = useState("unvisible")
     const [display, setDisplay] = useState("displaynone")
     const [wordActive, setWordActive] = useState(false)
@@ -12,11 +12,12 @@ export const Words = ({ PercentBar, value, changeValue, Next, active, word, word
             setVisible("vissible")
             setDisplay("displayblock")
         }
+
         else {
             setVisible("unvisible")
             setDisplay("displaynone")
-
         }
+
         setWordActive(!wordActive)
     }
     return (

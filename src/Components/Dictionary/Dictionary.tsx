@@ -8,11 +8,10 @@ interface addArr {
     [key: string]: any
 }
 
-export const Dictionary = ({ }: DictionaryProps): JSX.Element => {
-    const [arr, setArr] = useState<addArr[]>((JSON.parse(localStorage.getItem("add") || localStorage.add)))
+export const Dictionary = ({ add, setAdd }: DictionaryProps): JSX.Element => {
     const removeWord = (id: number): void => {
-        const newAdd = arr.filter((item) => item.id !== id)
-        setArr(newAdd)
+        const newAdd = add.filter((item) => item.id !== id)
+        setAdd(newAdd)
     }
     return (
         <div className="dictionary">
@@ -21,7 +20,7 @@ export const Dictionary = ({ }: DictionaryProps): JSX.Element => {
                     <th className="titleEng">ENG</th>
                     <th className="titleUa">UA</th>
                 </tr>
-                {arr.map((item: {
+                {add.map((item: {
                     id: number
                     word: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined,
                     wordUa: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined
