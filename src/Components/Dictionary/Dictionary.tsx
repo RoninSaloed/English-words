@@ -1,12 +1,6 @@
-import React, { useEffect, useState } from "react"
 import { DictionaryProps } from "./dictionary.props"
 import './dictionary.css';
-interface addArr {
-    word: string
-    wordUa: string
-    id: number
-    [key: string]: any
-}
+
 
 export const Dictionary = ({ add, setAdd }: DictionaryProps): JSX.Element => {
     const removeWord = (id: number): void => {

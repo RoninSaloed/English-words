@@ -13,6 +13,11 @@ export interface WordsProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElem
     active: boolean | undefined,
     data: object,
     step: number
-    setstep: any
+    setstep: any,
+    setVisible: any
+    setDisplay: any
+    display: string
+    vissible: string
+
 
 }

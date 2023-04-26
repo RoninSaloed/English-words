@@ -143,5 +143,775 @@
         "id": 28,
         "word": "at",
         "wordUa": "в"
+    },
+    {
+        "id": 29,
+        "word": "Bike",
+        "wordUa": "Велосипед"
+    },
+    {
+        "id": 30,
+        "word": "Boat",
+        "wordUa": "Човен"
+    },
+    {
+        "id": 31,
+        "word": "Car",
+        "wordUa": "Автомобіль"
+    },
+    {
+        "id": 32,
+        "word": "Cat",
+        "wordUa": "Кіт"
+    },
+    {
+        "id": 33,
+        "word": "Dog",
+        "wordUa": "Собака"
+    },
+    {
+        "id": 34,
+        "word": "Elephant",
+        "wordUa": "Слон"
+    },
+    {
+        "id": 35,
+        "word": "Family",
+        "wordUa": "Сім'я"
+    },
+    {
+        "id": 36,
+        "word": "Friend",
+        "wordUa": "Друг"
+    },
+    {
+        "id": 37,
+        "word": "Guitar",
+        "wordUa": "Гітара"
+    },
+    {
+        "id": 38,
+        "word": "House",
+        "wordUa": "Будинок"
+    },
+    {
+        "id": 39,
+        "word": "Internet",
+        "wordUa": "Інтернет"
+    },
+    {
+        "id": 40,
+        "word": "Jacket",
+        "wordUa": "Куртка"
+    },
+    {
+        "id": 41,
+        "word": "Keyboard",
+        "wordUa": "Клавіатура"
+    },
+    {
+        "id": 42,
+        "word": "Laptop",
+        "wordUa": "Ноутбук"
+    },
+    {
+        "id": 43,
+        "word": "Music",
+        "wordUa": "Музика"
+    },
+    {
+        "id": 44,
+        "word": "Notebook",
+        "wordUa": "Блокнот"
+    },
+    {
+        "id": 45,
+        "word": "Orange",
+        "wordUa": "Апельсин"
+    },
+    {
+        "id": 46,
+        "word": "Pencil",
+        "wordUa": "Олівець"
+    },
+    {
+        "id": 47,
+        "word": "Quiet",
+        "wordUa": "Тихо"
+    },
+    {
+        "id": 48,
+        "word": "Accident",
+        "wordUa": "Аварія"
+    },
+    {
+        "id": 49,
+        "word": "Book",
+        "wordUa": "Книга"
+    },
+    {
+        "id": 50,
+        "word": "City",
+        "wordUa": "Місто"
+    },
+    {
+        "id": 51,
+        "word": "Dinner",
+        "wordUa": "Вечеря"
+    },
+    {
+        "id": 52,
+        "word": "Excuse",
+        "wordUa": "Виправдання"
+    },
+    {
+        "id": 53,
+        "word": "Famous",
+        "wordUa": "Відомий"
+    },
+    {
+        "id": 54,
+        "word": "Green",
+        "wordUa": "Зелений"
+    },
+    {
+        "id": 55,
+        "word": "Hotel",
+        "wordUa": "Готель"
+    },
+    {
+        "id": 56,
+        "word": "Information",
+        "wordUa": "Інформація"
+    },
+    {
+        "id": 57,
+        "word": "Jacket",
+        "wordUa": "Куртка"
+    },
+    {
+        "id": 58,
+        "word": "Kitchen",
+        "wordUa": "Кухня"
+    },
+    {
+        "id": 59,
+        "word": "Language",
+        "wordUa": "Мова"
+    },
+    {
+        "id": 60,
+        "word": "Movie",
+        "wordUa": "Фільм"
+    },
+    {
+        "id": 61,
+        "word": "Nurse",
+        "wordUa": "Медсестра"
+    },
+    {
+        "id": 62,
+        "word": "Orange",
+        "wordUa": "Помаранчевий"
+    },
+    {
+        "id": 63,
+        "word": "Police",
+        "wordUa": "Поліція"
+    },
+    {
+        "id": 64,
+        "word": "Question",
+        "wordUa": "Питання"
+    },
+    {
+        "id": 65,
+        "word": "Restaurant",
+        "wordUa": "Ресторан"
+    },
+    {
+        "id": 66,
+        "word": "Shirt",
+        "wordUa": "Сорочка"
+    },
+    {
+        "id": 67,
+        "word": "Telephone",
+        "wordUa": "Телефон"
+    },
+    {
+        "id": 68,
+        "word": "Understand",
+        "wordUa": "Розуміти"
+    },
+    {
+        "id": 69,
+        "word": "Vegetable",
+        "wordUa": "Овоч"
+    },
+    {
+        "id": 70,
+        "word": "Weather",
+        "wordUa": "Погода"
+    },
+    {
+        "id": 71,
+        "word": "eXperience",
+        "wordUa": "Досвід"
+    },
+    {
+        "id": 72,
+        "word": "Yellow",
+        "wordUa": "Жовтий"
+    },
+    {
+        "id": 73,
+        "word": "Zoo",
+        "wordUa": "Зоопарк"
+    },
+    {
+        "id": 74,
+        "word": "Airport",
+        "wordUa": "Аеропорт"
+    },
+    {
+        "id": 75,
+        "word": "Bathroom",
+        "wordUa": "Ванна кімната"
+    },
+    {
+        "id": 76,
+        "word": "Camera",
+        "wordUa": "Камера"
+    },
+    {
+        "id": 77,
+        "word": "Dictionary",
+        "wordUa": "Словник"
+    },
+    {
+        "id": 78,
+        "word": "Elephant",
+        "wordUa": "Слон"
+    },
+    {
+        "id": 79,
+        "word": "Family",
+        "wordUa": "Родина"
+    },
+    {
+        "id": 80,
+        "word": "Guitar",
+        "wordUa": "Гітара"
+    },
+    {
+        "id": 81,
+        "word": "Hospital",
+        "wordUa": "Лікарня"
+    },
+    {
+        "id": 82,
+        "word": "Information",
+        "wordUa": "Інформація"
+    },
+    {
+        "id": 83,
+        "word": "Hurry",
+        "wordUa": "Квапитись"
+    },
+    {
+        "id": 84,
+        "word": "Industry",
+        "wordUa": "Промисловість"
+    },
+    {
+        "id": 85,
+        "word": "Journey",
+        "wordUa": "Подорож"
+    },
+    {
+        "id": 86,
+        "word": "Kilogram",
+        "wordUa": "Кілограм"
+    },
+    {
+        "id": 87,
+        "word": "Library",
+        "wordUa": "Бібліотека"
+    },
+    {
+        "id": 88,
+        "word": "Machine",
+        "wordUa": "Машина"
+    },
+    {
+        "id": 89,
+        "word": "Neighbour",
+        "wordUa": "Сусід"
+    },
+    {
+        "id": 90,
+        "word": "Opinion",
+        "wordUa": "Думка"
+    },
+    {
+        "id": 91,
+        "word": "Painting",
+        "wordUa": "Живопис"
+    },
+    {
+        "id": 92,
+        "word": "Occasion",
+        "wordUa": "Подія"
+    },
+    {
+        "id": 93,
+        "word": "Positive",
+        "wordUa": "Позитивний"
+    },
+    {
+        "id": 94,
+        "word": "Questionnaire",
+        "wordUa": "Анкета"
+    },
+    {
+        "id": 95,
+        "word": "Relax",
+        "wordUa": "Розслабитися"
+    },
+    {
+        "id": 96,
+        "word": "Security",
+        "wordUa": "Безпека"
+    },
+    {
+        "id": 97,
+        "word": "Temperature",
+        "wordUa": "Температура"
+    },
+    {
+        "id": 98,
+        "word": "Underground",
+        "wordUa": "Підземний"
+    },
+    {
+        "id": 99,
+        "word": "Valuable",
+        "wordUa": "Цінний"
+    },
+    {
+        "id": 100,
+        "word": "carry out",
+        "wordUa": "виконувати, здійснити, доводити до кінця"
+    },
+    {
+        "id": 101,
+        "word": "Break down",
+        "wordUa": "розбивати, ламатися"
+    },
+    {
+        "id": 102,
+        "word": "Call off",
+        "wordUa": "скасовувати, переносити"
+    },
+    {
+        "id": 103,
+        "word": "Come across",
+        "wordUa": "натрапляти на, зустрічати випадково"
+    },
+    {
+        "id": 104,
+        "word": "Get along with",
+        "wordUa": "ладити з кимось, мати добрі стосунки"
+    },
+    {
+        "id": 105,
+        "word": "Go over",
+        "wordUa": "переглядати, оглядати, перевіряти"
+    },
+    {
+        "id": 106,
+        "word": "Hang out",
+        "wordUa": "тусуватися, проводити час разом"
+    },
+    {
+        "id": 107,
+        "word": "Keep up",
+        "wordUa": "підтримувати, триматися на висоті"
+    },
+    {
+        "id": 108,
+        "word": "Look up to",
+        "wordUa": "поважати, захоплюватися, піднімати на духу"
+    },
+    {
+        "id": 109,
+        "word": "Make up",
+        "wordUa": "придумувати, складати, змінювати настрій"
+    },
+    {
+        "id": 110,
+        "word": "Put off",
+        "wordUa": "відкладати, затягувати, відволікатися"
+    },
+    {
+        "id": 111,
+        "word": "Take up",
+        "wordUa": "займатися, брати участь, забирати місце"
+    },
+    {
+        "id": 112,
+        "word": "Turn down",
+        "wordUa": "зменшувати, відмовляти, знижувати гучність"
+    },
+    {
+        "id": 113,
+        "word": "Back down",
+        "wordUa": "відступати, уступати, знижувати інтенсивність"
+    },
+    {
+        "id": 114,
+        "word": "Bring up",
+        "wordUa": "виховувати, згадувати, піднімати тему"
+    },
+    {
+        "id": 115,
+        "word": "Call on",
+        "wordUa": "звернутися"
+    },
+    {
+        "id": 116,
+        "word": "Calm down",
+        "wordUa": "заспокоїтися, утихомиритися"
+    },
+    {
+        "id": 117,
+        "word": "Carry out",
+        "wordUa": "виконувати, здійснювати"
+    },
+    {
+        "id": 118,
+        "word": "Come up with",
+        "wordUa": "винайти, запропонувати, знайти вирішення"
+    },
+    {
+        "id": 119,
+        "word": "Cut off",
+        "wordUa": "відрізати, перервати, припинити"
+    },
+    {
+        "id": 120,
+        "word": "Do without",
+        "wordUa": "обійтися без чогось, знайти заміну"
+    },
+    {
+        "id": 121,
+        "word": "Drop off",
+        "wordUa": "заснути, відвезти, випадково залишити"
+    },
+    {
+        "id": 122,
+        "word": "Figure out",
+        "wordUa": "зрозуміти, розібратися, вирішити"
+    },
+    {
+        "id": 123,
+        "word": "Fill in",
+        "wordUa": "заповнити, розповісти деталі, замінити"
+    },
+    {
+        "id": 124,
+        "word": "Find out",
+        "wordUa": "дізнатися, з'ясувати"
+    },
+    {
+        "id": 125,
+        "word": "Get over",
+        "wordUa": "пережити, поправитися, перебороти"
+    },
+    {
+        "id": 126,
+        "word": "Give up",
+        "wordUa": "відмовлятися, кидати, здаватися"
+    },
+    {
+        "id": 127,
+        "word": "Hold on",
+        "wordUa": "чекати, триматися, не відпускати"
+    },
+    {
+        "id": 128,
+        "word": "Keep on",
+        "wordUa": "продовжувати, тримати на висоті"
+    },
+    {
+        "id": 129,
+        "word": "Let down",
+        "wordUa": "розчарувати, підвести, зрадити"
+    },
+    {
+        "id": 130,
+        "word": "Look forward to",
+        "wordUa": "очікувати з нетерпінням, радіти"
+    },
+    {
+        "id": 131,
+        "word": "Take after",
+        "wordUa": "бути схожим на когось"
+    },
+    {
+        "id": 132,
+        "word": "Take apart",
+        "wordUa": "розібрати на частини"
+    },
+    {
+        "id": 133,
+        "word": "Take away",
+        "wordUa": "забрати"
+    },
+    {
+        "id": 134,
+        "word": "Take back",
+        "wordUa": "відновити, повернути"
+    },
+    {
+        "id": 135,
+        "word": "Take down",
+        "wordUa": "записати"
+    },
+    {
+        "id": 136,
+        "word": "Take in",
+        "wordUa": "заарештувати"
+    },
+    {
+        "id": 137,
+        "word": "Take off",
+        "wordUa": "злітати"
+    },
+    {
+        "id": 138,
+        "word": "Take on",
+        "wordUa": "взятися за щось"
+    },
+    {
+        "id": 139,
+        "word": "Take out",
+        "wordUa": "винести назовні"
+    },
+    {
+        "id": 140,
+        "word": "Take over",
+        "wordUa": "зайняти місце"
+    },
+    {
+        "id": 140,
+        "word": "Make up",
+        "wordUa": "вигадувати, складати, макіяж"
+    },
+    {
+        "id": 141,
+        "word": "Make out",
+        "wordUa": "розрізнити, зрозуміти, цілуватися"
+    },
+    {
+        "id": 142,
+        "word": "Make do",
+        "wordUa": "обходитися, уладнатися"
+    },
+    {
+        "id": 143,
+        "word": "Make for",
+        "wordUa": "направлятися, призвести до"
+    },
+    {
+        "id": 144,
+        "word": "Make off",
+        "wordUa": "втекти, піти швидко"
+    },
+    {
+        "id": 145,
+        "word": "Make up for",
+        "wordUa": "компенсувати, відшкодувати"
+    },
+    {
+        "id": 146,
+        "word": "Make over",
+        "wordUa": "переделати, передати власність"
+    },
+    {
+        "id": 147,
+        "word": "Make up to",
+        "wordUa": "примирюватися, відшкодовувати"
+    },
+    {
+        "id": 148,
+        "word": "Make out with",
+        "wordUa": "справитися з, домовитися"
+    },
+    {
+        "id": 149,
+        "word": "Make of",
+        "wordUa": "розуміти, приймати"
+    },
+    {
+        "id": 150,
+        "word": "Make out like",
+        "wordUa": "претендувати на, намагатися здатися"
+    },
+    {
+        "id": 151,
+        "word": "Get across",
+        "wordUa": "переконати, донести інформацію"
+    },
+    {
+        "id": 152,
+        "word": "Get ahead",
+        "wordUa": "продвигатись вперед, добиватись успіху"
+    },
+    {
+        "id": 153,
+        "word": "Get along",
+        "wordUa": "жити дружно, ладити"
+    },
+    {
+        "id": 154,
+        "word": "Get around",
+        "wordUa": "об'їзджати, обходити, знаходити шляхи уникнення проблем"
+    },
+    {
+        "id": 155,
+        "word": "Get at",
+        "wordUa": "намагатись дізнатись, впливати, досягти чогось"
+    },
+    {
+        "id": 156,
+        "word": "Get away",
+        "wordUa": "втекти, виїхати, відпочити"
+    },
+    {
+        "id": 157,
+        "word": "Get back",
+        "wordUa": "повернутись, відновитись"
+    },
+    {
+        "id": 158,
+        "word": "Get by",
+        "wordUa": "обходитись, виживати, пройти (екзамен)"
+    },
+    {
+        "id": 159,
+        "word": "Get down",
+        "wordUa": "спуститись, засмучувати"
+    },
+    {
+        "id": 160,
+        "word": "Get in",
+        "wordUa": "входити, приїжджати"
+    },
+    {
+        "id": 161,
+        "word": "Get off",
+        "wordUa": "від'їжджати, злазити"
+    },
+    {
+        "id": 162,
+        "word": "Get on",
+        "wordUa": "сідати, продовжувати роботу, ладити"
+    },
+    {
+        "id": 163,
+        "word": "Get out",
+        "wordUa": "виходити, виїжджати, втікати"
+    },
+    {
+        "id": 164,
+        "word": "Get over",
+        "wordUa": "подолати, пережити, оговтатись"
+    },
+    {
+        "id": 165,
+        "word": "Get through",
+        "wordUa": "пройти, пробитись, дійти до когось"
+    },
+    {
+        "id": 166,
+        "word": "Get up",
+        "wordUa": "підвестись, підніматись"
+    },
+    {
+        "id": 167,
+        "word": "Go after",
+        "wordUa": "доганяти, переслідувати"
+    },
+    {
+        "id": 168,
+        "word": "Go ahead",
+        "wordUa": "рушати вперед, продовжувати"
+    },
+    {
+        "id": 169,
+        "word": "Go along",
+        "wordUa": "йти вздовж, супроводжувати"
+    },
+    {
+        "id": 170,
+        "word": "Go around",
+        "wordUa": "обходити, проходити навколо"
+    },
+    {
+        "id": 171,
+        "word": "Go away",
+        "wordUa": "піти геть, піти прочь"
+    },
+    {
+        "id": 172,
+        "word": "Go back",
+        "wordUa": "повернутися назад"
+    },
+    {
+        "id": 173,
+        "word": "Go for",
+        "wordUa": "йти за чимось, брати участь у чомусь"
+    },
+    {
+        "id": 174,
+        "word": "Go in for",
+        "wordUa": "займатися, захоплюватися чимось"
+    },
+    {
+        "id": 175,
+        "word": "Go off",
+        "wordUa": "вибухнути, вимкнутися"
+    },
+    {
+        "id": 176,
+        "word": "Go on",
+        "wordUa": "продовжуватися, іти далі"
+    },
+    {
+        "id": 177,
+        "word": "Go out",
+        "wordUa": "виходити, піти на вулицю"
+    },
+    {
+        "id": 178,
+        "word": "Go over",
+        "wordUa": "перевірити, розглянути"
+    },
+    {
+        "id": 179,
+        "word": "Go through",
+        "wordUa": "пройти через, пережити"
+    },
+    {
+        "id": 180,
+        "word": "Go together",
+        "wordUa": "підходити, бути сумісними"
+    },
+    {
+        "id": 181,
+        "word": "Go without",
+        "wordUa": "обійтися без чогось"
     }
 ]

@@ -15,4 +15,8 @@ export interface HomeProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivEleme
     range: number
     word: string
     wordUa: string
+    setVisible: any
+    setDisplay: any
+    display: string
+    vissible: string
 }

@@ -3,7 +3,7 @@ import cn from "classnames"
 import "./result.css"
 import { ResultProps } from "./result.props"
 import { Words } from "../components"
-export const Result = ({ step, setstep, range, PercentBar, add }: ResultProps): JSX.Element => {
+export const Result = ({ step, setstep, range }: ResultProps): JSX.Element => {
     const Previously = (e: React.MouseEvent<HTMLButtonElement>) => {
         setstep(step - range)
 

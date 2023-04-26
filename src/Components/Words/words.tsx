@@ -1,25 +1,22 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import cn from "classnames"
 import "./words.css"
-import firstLevel from "../../levelFirst.json"
 import { WordsProps } from "./words.props"
-export const Words = ({ PercentBar, value, changeValue, Next, active, Add, add, step, setstep, word, wordUa }: WordsProps): JSX.Element => {
-    const [vissible, setVisible] = useState("unvisible")
-    const [display, setDisplay] = useState("displaynone")
+export const Words = ({ PercentBar, value, changeValue, Next, active, Add, word, wordUa, setVisible, setDisplay, vissible, display }: WordsProps): JSX.Element => {
+
     const [wordActive, setWordActive] = useState(false)
     const vissibleWord = () => {
         if (!wordActive) {
             setVisible("vissible")
             setDisplay("displayblock")
         }
-
         else {
             setVisible("unvisible")
             setDisplay("displaynone")
         }
 
-        setWordActive(!wordActive)
     }
+
     return (
         <div className="word">
             <div>
@@ -30,6 +27,7 @@ export const Words = ({ PercentBar, value, changeValue, Next, active, Add, add, 
                     <div className="wordSecondLayer">
                         <div className="wordThirdLayer">
                             <div className="wordFourthLayer">
+
                                 <div>
                                     <div className={cn("wordTitle ")}>
                                         <div>{word}</div>

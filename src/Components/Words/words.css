@@ -153,9 +153,8 @@
 }
  .vissible{
    font-family: 'Inder', sans-serif;
-   width: 220px;
-
-   height: 115px;
+   width: 320px;
+   height: 120px;
    transition: 0.3s all;
    position: absolute;
    margin: 0 auto;
@@ -164,7 +163,7 @@
    left: 420px;
    background-image: url("./hint.png");
    background-repeat: no-repeat;
-   background-size: 220px;
+   background-size: 320px 120px;
    font-size: 20px;
    color: #833F6A;
    font-weight: 500;
@@ -175,11 +174,9 @@
 .displayblock{
    display: flex;
    justify-content: center;
-   width: 220px;
+   width: 320px;
    height: 100px;
+   padding: 0 10px;
    align-items: center;
    position: absolute;
-   /* top: 30px;
-   right: 75px; */
-
 }

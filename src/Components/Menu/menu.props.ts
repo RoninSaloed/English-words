@@ -17,4 +17,10 @@ export interface MenuProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivEleme
     range: number
     word: string
     wordUa: string
+    levelChangeSecond: any
+    levelChangeFirst: any
+    setVisible: any
+    setDisplay: any
+    display: string
+    vissible: string
 }
