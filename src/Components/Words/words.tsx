@@ -16,7 +16,13 @@ export const Words = ({ PercentBar, value, changeValue, Next, active, Add, word,
         }
 
     }
+    const Speak = () => {
+        const speech = new SpeechSynthesisUtterance(word)
+        speech.rate = 0.7
+        speech.lang = "en-US"
+        window.speechSynthesis.speak(speech);
 
+    }
     return (
         <div className="word">
             <div>
@@ -34,6 +40,7 @@ export const Words = ({ PercentBar, value, changeValue, Next, active, Add, word,
                                     </div>
                                     <div className="wordInput"><input onChange={changeValue} value={value} type="text" /></div>
                                     <div className="error">{active == false && <div className="wordError">Incorrect. Try again!</div>}</div>
+                                    <div className="speech" onClick={Speak}></div>
                                     <div onClick={vissibleWord} className="hint">?</div>
                                     <div className={vissible}>
                                         <div className={display}>{wordUa}</div>
@@ -49,6 +56,7 @@ export const Words = ({ PercentBar, value, changeValue, Next, active, Add, word,
                 <button className="wordButtonNext" onClick={Next}>NEXT</button>
 
             </div>
+
         </div>
     )
 }

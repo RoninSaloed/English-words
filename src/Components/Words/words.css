@@ -101,6 +101,23 @@
    top: 160px;
    cursor: pointer;
 }
+.speech{
+   width: 35px;
+   height: 35px;
+   font-family: 'Inder', sans-serif;
+   position: absolute;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   color: #833F6A;
+   background-image: url("./volume.png");
+   background-repeat: no-repeat;
+   background-size: 35px 35px;
+   line-height: 80px;
+   left: 15px;
+   top: 185px;
+   cursor: pointer;
+}
  .wordProgressBar{
     height: 18px;
     background-color: #fff;

@@ -62,6 +62,7 @@ a.active:before{
     background: #219D9E;
     transition: ease-out 0.5s;
     left: 0;
+    z-index: 1;
 }
 .hidden{
     left: -50%;
